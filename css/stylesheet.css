@@ -1,0 +1,22 @@
+*{
+    background-color: burlywood;
+}
+body {
+    color: rgb(0, 0, 0);
+}
+h1 {
+    text-align: center;
+}
+div {
+    text-align: center;
+    background-image: cross-fade();
+}
+p {
+    padding-left: 10%;
+}
+h2 {
+    padding-left: 10%;
+}
+nav {
+    padding-left: 20%;
+}
