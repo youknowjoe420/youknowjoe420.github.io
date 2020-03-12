@@ -3,6 +3,60 @@ body {
     color: rgb(0, 0, 0);
     background-color: burlywood;
 }
+.navbar {   /* Navigations Leiste Design */
+    overflow: hidden;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgb(107, 79, 0);
+    font-family: Arial;
+}
+.navbar a {   /* Text Design im Navigationsverzeichnis */
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.dropdown {   /* Dropdown Kasten*/
+    float: left;
+    overflow: hidden;
+}
+.dropdown .dropbtn {  /* Dropdown Knopf */     
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; 
+    margin: 0; 
+}
+.navbar a:hover, .dropdown:hover .dropbtn {   /* Roter Hintergrund beim Hovern über der Navigations Leiste */
+    background-color: rgb(197, 176, 152);
+}
+.dropdown-content {   /* Dropdown Inhalts Box */
+    display: none;
+    position: absolute;
+    background-color: #8d8d8d;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
+    z-index: 1;
+}
+.dropdown-content a {     /* Links im Dropdown Menü */
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {   /* Grauer Hintergrund beim Hovern im Dropdown Menü */
+    background-color: rgb(197, 176, 152);
+} 
+.dropdown:hover .dropdown-content{   /* Dropdown anzeigen */
+    display: block;
+}
 h1 {
     text-align: center;
 }
@@ -27,7 +81,7 @@ p {
 h2 {
     padding-left: 10%;
 }
-nav {
+nav.list {
     padding-left: 20%;
 }
 img {
