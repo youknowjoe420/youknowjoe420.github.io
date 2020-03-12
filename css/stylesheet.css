@@ -10,6 +10,7 @@ body {
     background-color: rgb(107, 79, 0);
     font-family: Arial;
 }
+
 .navbar a {   /* Text Design im Navigationsverzeichnis */
     float: left;
     font-size: 16px;
