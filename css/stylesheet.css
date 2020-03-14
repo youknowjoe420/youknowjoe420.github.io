@@ -97,11 +97,9 @@ p.container a:link{
 p.container a:hover{
     color: rgb(187, 43, 122);
 }
-div.Uebermichbild{
-    position: absolute;
-  top: 80px;
-  right: 0;
+.Uebermichbild{
+  margin-right: 10%;
   width: 200px;
   height: 100px;
-  border: 3px solid rgb(59, 59, 59);
+  border: 5px solid rgb(59, 59, 59);
 }
