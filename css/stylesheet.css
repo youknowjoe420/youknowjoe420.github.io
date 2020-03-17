@@ -108,11 +108,11 @@ div.Uebermichbild{
   float: right;
   margin-left: 10%;
 }
-figcaption{
+figcaption{ /* Caption */
     display: inline-block;
     float: left;
 }
-.footer{
+.footer{ /*Fusszeile*/
     background-color: #F1F1F1;
     text-align: center;
     left: 0;
@@ -121,7 +121,7 @@ figcaption{
     color: black;
     position: fixed;
 }
-.Tabelle{
+.Tabelle{ /* definiert pos. und design der Tabelle*/
     margin: 40px;
     padding-left: 10%;
 }
@@ -144,14 +144,14 @@ figcaption{
     padding: 12px;
     text-decoration: none;
 }
-.vertical-menu a:hover {
+.vertical-menu a:hover { /* vertikales Menü beim überfahren*/
     background-color: #ccc;
 }
-.vertical-menu a.active {
+.vertical-menu a.active { /*Text des Menüs*/
     background-color: #4CAF50;
     color: white;
 }
-p.solid {
+p.solid { /* umrandet einen Text */
     border-style: solid;
     border-width: 5px;
     margin-left: 25%;
@@ -159,4 +159,7 @@ p.solid {
     margin-top: 5%;
     text-align: center;
     border-color: red;
+}
+.video {
+    margin: 20px;
 }
