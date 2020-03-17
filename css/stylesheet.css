@@ -1,21 +1,24 @@
 
-body {
-    color: rgb(0, 0, 0);
-    background-color: burlywood;
+body { /* Eigenschaften für Body der Website */
+    color: rgb(0, 0, 0); /*Textfarbe*/
+    background-color: burlywood;  /* Hintergrundfarbe*/ 
+    margin: 0; /* platzhalter für body*/
+    padding-bottom: 5rem;
+    min-height: 100%; /* mindest grösse für Body*/
 }
 .navbar {   /* Navigations Leiste Design */
     overflow: hidden;
     margin-left: 10%;
     margin-right: 10%;
     background-color: rgb(107, 79, 0);
-    font-family: Arial;
+    font-family: Arial; /* Font art */
 }
 .navbar a {   /* Text Design im Navigationsverzeichnis */
     float: left;
-    font-size: 16px;
+    font-size: 16px; /* textgrösse */
     color: white;
-    text-align: center;
-    padding: 14px 16px;
+    text-align: center; /* damit der text in der mitte angezeigt wird*/
+    padding: 14px 16px; /*abstände*/
     text-decoration: none;
 }
 .dropdown {   /* Dropdown Kasten*/
@@ -24,7 +27,7 @@ body {
 }
 .dropdown .dropbtn {  /* Dropdown Knopf */     
     font-size: 16px;
-    border: none;
+    border: none;  /* umrahmung*/
     outline: none;
     color: white;
     padding: 14px 16px;
@@ -37,7 +40,7 @@ body {
 }
 .dropdown-content {   /* Dropdown Inhalt der Box */
     display: none;
-    position: absolute;
+    position: absolute;  /* position*/
     background-color: #8d8d8d;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
@@ -47,9 +50,9 @@ body {
     float: none;
     color: black;
     padding: 12px 16px;
-    text-decoration: none;
+    text-decoration: none; /* keine spezielle text deco. wie zb. underline*/
     display: block;
-    text-align: left;
+    text-align: left;  /* Textausrichtung (links)*/
 }
 .dropdown-content a:hover {   /* ändern der Farbe beim Hovern im Dropdown Menü */
     background-color: rgb(197, 176, 152);
@@ -79,6 +82,7 @@ p.container {
 p {
     padding-left: 10%;
     padding-right: 10%;
+    
 }
 ul{
     padding-left: 10%;
@@ -100,8 +104,9 @@ p.container a:hover{
 }
 div.Uebermichbild{
   margin-right: 10%;
-  width: 25%;
-  
+  width: 15%;
+  float: right;
+  margin-left: 10%;
 }
 figcaption{
     display: inline-block;
@@ -110,8 +115,11 @@ figcaption{
 .footer{
     background-color: #F1F1F1;
     text-align: center;
-    padding: 10px;
-    margin: 10px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    color: black;
+    position: fixed;
 }
 .Tabelle{
     margin: 40px;
@@ -132,7 +140,7 @@ figcaption{
 .vertical-menu a {
     background-color: rgb(206, 170, 137);
     color: black;
-    display: block;
+    display: block; /*wird definiert welche art von box ein element erzeugt*/ 
     padding: 12px;
     text-decoration: none;
 }
