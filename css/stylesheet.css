@@ -32,10 +32,10 @@ body {
     font-family: inherit; 
     margin: 0; 
 }
-.navbar a:hover, .dropdown:hover .dropbtn {   /* Roter Hintergrund beim Hovern über der Navigations Leiste */
+.navbar a:hover, .dropdown:hover .dropbtn {   /* andere Farbe beim überfahren der Leiste*/
     background-color: rgb(197, 176, 152);
 }
-.dropdown-content {   /* Dropdown Inhalts Box */
+.dropdown-content {   /* Dropdown Inhalt der Box */
     display: none;
     position: absolute;
     background-color: #8d8d8d;
@@ -51,13 +51,13 @@ body {
     display: block;
     text-align: left;
 }
-.dropdown-content a:hover {   /* Grauer Hintergrund beim Hovern im Dropdown Menü */
+.dropdown-content a:hover {   /* ändern der Farbe beim Hovern im Dropdown Menü */
     background-color: rgb(197, 176, 152);
 } 
 .dropdown:hover .dropdown-content{   /* Dropdown anzeigen */
     display: block;
 }
-h1 {
+h1 {   /* Titel mittig anzeigen*/
     text-align: center;
 }
 div {
@@ -85,9 +85,6 @@ ul{
 }
 h2 {
     padding-left: 10%;
-}
-nav.list {
-    padding-left: 15%;
 }
 img {
     width: 100%;
