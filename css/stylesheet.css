@@ -74,7 +74,7 @@ p.container {
     text-align: center;
     background-color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 1.8%;
+    padding: 1.6%;
 }
 p {
     padding-left: 10%;
@@ -106,4 +106,21 @@ div.Uebermichbild{
 figcaption{
     display: inline-block;
     text-align: left;
+}
+.footer{
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 10px;
+}
+.Tabelle{
+    margin: 40px;
+}
+.TArten, td, th{
+    background-color: rgb(165, 165, 165);
+    text-align: center;
+    color: rgb(255,255,255);
+    font-size: 16px;
+    padding: 12px;
+    border: 1px solid white;
+    border-collapse: collapse;
 }
