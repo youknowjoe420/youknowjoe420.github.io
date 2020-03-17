@@ -166,5 +166,13 @@ p.solid { /* umrandet einen Text */
 iframe {
     width: 500px;
     height: 350px;
-    margin-top: 10%;
+    margin-top: 5%;
+}
+h3{
+    padding-left: 10%;
+}
+div.Affen {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10%;
 }
