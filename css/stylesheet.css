@@ -124,6 +124,7 @@ figcaption{ /* Caption */
 .Tabelle{ /* definiert pos. und design der Tabelle*/
     margin: 40px;
     padding-left: 10%;
+    padding-right: 10%;
 }
 .TArten, td, th{
     background-color: rgb(165, 165, 165);
@@ -160,7 +161,7 @@ p.solid { /* umrandet einen Text */
     text-align: center;
     border-color: red;
 }
-.video {
+.video { /* macht die Videoboxen breiter*/ 
     margin: 20px;
 }
 iframe {
