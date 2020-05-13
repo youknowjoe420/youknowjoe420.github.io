@@ -84,7 +84,7 @@ p.container {
 p {
     padding-left: 10%;
     padding-right: 10%;
-    font-size: 2vmin;
+    font-size: 2vmin; /*wie alle Font-size, passt es die Schriftgrösse an die Bildschirmgrösse an*/
     
 }
 ul{
