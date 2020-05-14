@@ -218,10 +218,13 @@ div.Affen {
 }
   
 .button:hover span:after {
-    opacity: 1;
+    opacity: 1; /*transparenz*/
     right: 0;
 }
-
+.button a {
+    text-decoration: none; /* entfernt href linie*/
+    color: rgb(255, 255, 255);
+}
 
 
 
@@ -251,14 +254,14 @@ div.Affen {
     background-color: #a08345;
   }
   
-  /* Style the container/contact section */
+  /* style des container/contact */
   .containercontact {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 10px;
   }
   
-  /* Create two columns that float next to eachother */
+  /* 2 coloums die nebeneinander schweben */
   .column {
     float: left;
     width: 50%;
@@ -266,14 +269,14 @@ div.Affen {
     padding: 20px;
   }
   
-  /* Clear floats after the columns */
+  /* die floats nach der coloum entfernen*/
   .row:after {
     content: "";
     display: table;
     clear: both;
   }
   
-  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  /* Responsive layout - wenn der screen kleiner als 600px breit ist, stapeln sich die 2 coloums aufeinander anstatt nebeneinander */
   @media screen and (max-width: 600px) {
     .column, input[type=submit] {
       width: 100%;
@@ -284,3 +287,58 @@ div.Affen {
       text-align: center;
       padding-left: 0;
   }
+  .background {
+      background-image: radial-gradient(circle, color1 30%,
+  color 2 50%, color 3 20%);
+  }
+  #gradientbody {
+    margin: 0;
+    min-height: 100%;
+    padding-bottom: 100%;
+    padding-top: 100%;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(90deg, red, yellow); /* Standard syntax (must be last) */
+  }
+
+
+
+.circle{
+    position:absolute;
+    top:25%;
+    left:25%;
+    transform:translate(-25%,-25%);   
+    border-radius:30px; 
+    background:-webkit-radial-gradient(circle farthest-corner at 35% 90%, #fec564, rgba(0, 0, 0, 0) 50%), -webkit-radial-gradient(circle farthest-corner at 0 140%, #fec564, rgba(0, 0, 0, 0) 50%), -webkit-radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, rgba(0, 0, 0, 0) 50%), -webkit-radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, rgba(0, 0, 0, 0) 50%), -webkit-radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, rgba(0, 0, 0, 0) 50%), -webkit-radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, rgba(0, 0, 0, 0) 50%), -webkit-radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, rgba(0, 0, 0, 0)), -webkit-linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+   background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, rgba(0, 0, 0, 0) 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, rgba(0, 0, 0, 0) 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, rgba(0, 0, 0, 0) 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, rgba(0, 0, 0, 0) 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, rgba(0, 0, 0, 0) 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, rgba(0, 0, 0, 0) 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, rgba(0, 0, 0, 0)), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+}
+.outer{
+    width:150px;
+    height:150px;
+}     
+.inner{
+    width:90px;
+    height:90px;    
+    border:10px solid #fff;
+    position:relative ;
+}
+.inner:before{
+    position:absolute;
+    content:"";
+    width:10px;
+    height:10px;
+    border-radius:25%;  
+    top:10px;  
+    right:15px;
+    background-color:#fff;
+}
+.inner:after{
+    position:absolute;
+    content:"";
+    width:30px;
+    height:30px;
+    border-radius:25%;
+    top:25%; 
+    left:25%;  
+    transform:translate(-25%,-25%);  
+    border:10px solid #fff;
+}
