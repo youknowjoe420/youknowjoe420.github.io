@@ -35,3 +35,4 @@ function getCookie(cname) {
       }
     }
   }
+  //es handelt sich hier um eine Namensanzeige
