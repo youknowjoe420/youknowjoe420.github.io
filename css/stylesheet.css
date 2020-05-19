@@ -276,8 +276,8 @@ div.Affen {
     clear: both;
   }
   
-  /* Responsive layout - wenn der screen kleiner als 600px breit ist, stapeln sich die 2 coloums aufeinander anstatt nebeneinander */
-  @media screen and (max-width: 600px) {
+/* Responsive layout - wenn der screen kleiner als 600px breit ist, stapeln sich die 2 coloums aufeinander anstatt nebeneinander */
+@media screen and (max-width: 600px) {
     .column, input[type=submit] {
       width: 100%;
       margin-top: 0;
